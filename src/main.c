@@ -8,7 +8,6 @@
 
 int main(void)
 {
-	//another change
 	// init devices
 	DDRA = 0xFF;
 	PORTA = 0xFF;
