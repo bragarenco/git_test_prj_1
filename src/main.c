@@ -8,9 +8,11 @@
 
 int main(void)
 {
+	// init devices
 	DDRA = 0xFF;
 	PORTA = 0xFF;
 	while(1){
+		// processing loop
 		PORTA++;
 
 	}
